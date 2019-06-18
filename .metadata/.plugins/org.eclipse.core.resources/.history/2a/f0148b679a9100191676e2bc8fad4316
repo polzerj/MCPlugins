@@ -1,0 +1,13 @@
+name: TNTPlugin
+author: Julian
+main: antitnt.Main
+description: TNT Plugin
+version: 1.0.0
+commands:
+    TNT:
+        permission: antitnt.admin
+        usage: "Usage /TNT [true,false]"
+
+permissions:
+    antitnt.admin:
+        default: op

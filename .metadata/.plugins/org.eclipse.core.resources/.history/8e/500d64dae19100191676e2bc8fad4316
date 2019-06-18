@@ -1,0 +1,29 @@
+package antitnt;
+
+import org.bukkit.entity.EntityType;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityExplodeEvent;
+import org.bukkit.event.entity.ExplosionPrimeEvent;
+public class TNTListener implements Listener {
+
+
+	
+	@EventHandler
+	public void onExplosionPrimeEvent(ExplosionPrimeEvent e) {
+		System.out.print("LOL");
+		if(e.getEntityType().equals(EntityType.PRIMED_TNT) && Main.canIgnite) {
+			e.setCancelled(true);
+			
+		}
+	}
+	
+	@EventHandler
+	public void onEntityExplodeEvent(EntityExplodeEvent e) {
+		if (e.getEntityType().equals(EntityType.PRIMED_TNT) && Main.pluginActivated){
+			e.setCancelled(true);
+		}
+	}
+	
+	
+}

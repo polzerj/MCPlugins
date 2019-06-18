@@ -1,0 +1,28 @@
+package antitnt;
+
+import org.bukkit.entity.EntityType;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityExplodeEvent;
+import org.bukkit.event.entity.ExplosionPrimeEvent;
+
+import net.minecraft.server.v1_12_R1.Block;
+
+public class TNTListener implements Listener {
+
+	@EventHandler
+	public void onExplosionPrimeEvent(ExplosionPrimeEvent e) {
+		if (e.getEntityType().equals(Block.getByName("TNT")) && Main.isActivated){
+			e.setCancelled(true);
+		}
+	}
+	
+	@EventHandler
+	public void onEntityExplodeEvent(EntityExplodeEvent e) {
+		if (e.getEntityType().equals(EntityType.PRIMED_TNT) && Main.isActivated){
+			e.setCancelled(true);
+		}
+	}
+	
+	
+}
