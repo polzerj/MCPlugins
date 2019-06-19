@@ -7,13 +7,7 @@ import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.block.Action;
-import org.bukkit.event.block.BlockIgniteEvent;
-import org.bukkit.event.block.BlockRedstoneEvent;
 import org.bukkit.event.entity.EntityExplodeEvent;
-import org.bukkit.event.entity.EntitySpawnEvent;
-import org.bukkit.event.entity.ExplosionPrimeEvent;
-import org.bukkit.event.player.PlayerInteractEvent;
 
 
 public class TNTListener implements Listener {
@@ -38,7 +32,7 @@ public class TNTListener implements Listener {
 
 	@EventHandler
 	public void onEntityAddToWorld(EntityAddToWorldEvent e){
-		if(e.getEntityType().equals(EntityType.PRIMED_TNT)&&Main.pluginActivated&&!Main.canIgnite){
+		if(e.getEntityType().equals(EntityType.PRIMED_TNT)&&Main.main.pluginActivated&&!Main.main.canIgnite){
 			//System.out.println("TNT was added to world");
 			Location loc = e.getEntity().getLocation();
 
@@ -55,7 +49,7 @@ public class TNTListener implements Listener {
 
 	@EventHandler
 	public void onEntityExplodeEvent(EntityExplodeEvent e) {
-		if (e.getEntityType().equals(EntityType.PRIMED_TNT) && Main.pluginActivated) {
+		if (e.getEntityType().equals(EntityType.PRIMED_TNT) && Main.main.pluginActivated) {
 			e.setCancelled(true);
 		}
 	}

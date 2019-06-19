@@ -1,0 +1,3 @@
+config:
+  PluginEnabled: true
+  CanIgnite: true

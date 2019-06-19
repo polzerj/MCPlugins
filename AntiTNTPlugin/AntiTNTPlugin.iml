@@ -23,5 +23,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Paper-1.12.2-b1615" level="project" />
   </component>
 </module>
