@@ -2,11 +2,14 @@ name: TNTPlugin
 author: Julian, Johannes
 main: antitnt.Main
 description: TNT Plugin
-version: 1.1.0
+version: 1.2.0
 commands:
     TNT:
         permission: antitnt.admin
-        usage: "Usage /TNT [true,false]"
+        usage: |
+            "Usage: /<command> [true,false]"
+            "Usage: /<command> ignite [true,false]"
+        description: Prevents TNT from explosion
 
 permissions:
     antitnt.admin:
