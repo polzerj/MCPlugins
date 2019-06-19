@@ -77,8 +77,8 @@ public class Main extends JavaPlugin {
     }
 
     private void loadConfig() {
-        //getConfig().options().copyDefaults(true);
-        //saveConfig();
+        getConfig().options().copyDefaults(true);
+        saveConfig();
     }
 
 }
