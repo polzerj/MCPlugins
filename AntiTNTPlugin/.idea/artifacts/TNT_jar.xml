@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TNT.jar">
+    <output-path>$PROJECT_DIR$/../../../Papertest/plugins/</output-path>
+    <root id="archive" name="TNT.jar">
+      <element id="module-output" name="AntiTNTPlugin" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Libraries/Paper-1.12.2-b1612.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
