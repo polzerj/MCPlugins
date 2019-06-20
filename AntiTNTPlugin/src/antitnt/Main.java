@@ -2,14 +2,10 @@ package antitnt;
 
 
 import net.md_5.bungee.api.ChatColor;
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Main extends JavaPlugin {
 
@@ -27,7 +23,7 @@ public class Main extends JavaPlugin {
         loadConfig();
         pluginActivated = getConfig().getBoolean("config.PluginEnabled");
         canIgnite = getConfig().getBoolean("config.CanIgnite");
-        //getCommand("tnt").setTabCompleter(new Main());
+        getCommand("tnt").setTabCompleter(new AutocompleteListener());
     }
 
 
@@ -38,17 +34,7 @@ public class Main extends JavaPlugin {
         saveConfig();
     }
 
-    @Override
-    public List<String> onTabComplete(CommandSender sender, Command cmd,String alias,String[] args) {
-        //create new array
-        final List<String> completions = new ArrayList<>();
-        Bukkit.broadcastMessage(cmd.getLabel());
-        //copy matches of first argument from list (ex: if first arg is 'm' will return just 'minecraft')
-        //StringUtil.copyPartialMatches(args[0], COMMANDS, completions);
-        //sort the list
-        //Collections.sort(completions);
-        return completions;
-    }
+
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

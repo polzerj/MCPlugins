@@ -2,7 +2,7 @@ name: TNTPlugin
 author: Julian, Johannes
 main: antitnt.Main
 description: TNT Plugin
-version: 1.2.0
+version: 2.0.0
 commands:
     TNT:
         permission: antitnt.admin
