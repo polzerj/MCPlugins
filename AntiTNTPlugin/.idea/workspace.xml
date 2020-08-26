@@ -23,38 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca45cd63-08d0-4435-a5a0-8383bd1a432e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antitnt/AntiTNTCommand.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antitnt/AutocompleteListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antitnt/Config.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antitnt/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/antitnt/TNTListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/TNT_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Paper_1_12_2_b1615.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AntiTNTPlugin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/antitnt/AutocompleteListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/antitnt/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/antitnt/TNTListener$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/antitnt/TNTListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/antitnt/AutocompleteListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/antitnt/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/antitnt/TNTListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/antitnt/AutocompleteListener.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/antitnt/AutocompleteListener.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,21 +165,21 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1598427902117" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1598429494924">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1598429518093">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1598429494924" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1598429494924">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1598429518093" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1598429518092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1598429494924" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1598429494924">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1598429518092" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1598429518092">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1598429494924" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1598429494924">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1598429518092" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1598429518093">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1598429494924" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1598429518093" />
   </component>
 </project>
